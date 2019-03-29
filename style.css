@@ -1,0 +1,88 @@
+@font-face {
+         font-family: "harlowsi";
+         src: url('./font/harlowsi.ttf');
+}
+body{
+	font-family: arial;
+	background: #d5f0f5;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	color: orange;
+	font-family: "arial";
+	text-shadow: 3px 2px red;
+}
+
+h2{
+	text-align: center;
+	/*ketebalan font*/
+	color: black;
+	font-family: "arial";
+	text-shadow: 2px 1px red;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+	color: black
+}
+ 
+.kotak_tengah{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+	text-align: center;
+}
+
+.kembali_tengah{
+	width: 100px;
+	float: center;
+	display: block;
+	margin: 12px auto;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4c;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	font-family: harlowsi;
+}
+
+.tombol_signup{
+	background: #46de4c;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	font-family: harlowsi;
+}
+ 
+.link{
+	color: #242424;
+	text-decoration: none;
+	font-size: 10pt;
+}
