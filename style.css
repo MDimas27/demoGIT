@@ -4,9 +4,25 @@
 }
 body{
 	font-family: arial;
-	background: #d5f0f5;
+	background:  url("./image/body1.jpg");
+	background-size: 100%;
+	line-height: 1;
+ }
+
+ ol, ul {
+ 	list-style: none;
+ }
+
+blockquote, q{
+ 	quotes:none;
+ }
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: :'';
+	content: none;
 }
- 
+
+
 h1{
 	text-align: center;
 	/*ketebalan font*/
@@ -22,21 +38,75 @@ h2{
 	font-family: "arial";
 	text-shadow: 2px 1px red;
 }
+
+label{
+	font-size: 11pt;
+}
  
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+ .container{
+ 	background-position: center;
+	background-size: 100%;
+	width: 100%;
+ 	margin: 0;
+ 	padding: 0;
+ 	line-height: 1;
+ }
+
+ .header {
+ 	padding: 0;
+ 	text-align: center;
+ }
+
+ .header ul li{
+ 	display: inline-block;
+ 	margin-top: 20px;
+ 	margin-right: 10px;
+ 	text-align: center;
+ }
+
+.header a{
+	text-decoration: none;
+	color:salmon;
+	padding: 3px;
+	text-align: center;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+	text-align: center;
+}
+
+.hero{
+	height: 300px;
+	background-image: url(./image/hero1.jpg);
+	background-size: cover;
+	background-position: 0 -250px;
+}
+
+}
 .tulisan_login{
 	text-align: center;
 	/*membuat semua huruf menjadi kapital*/
 	text-transform: uppercase;
-	color: black
+	color: black;
 }
  
 .kotak_tengah{
 	width: 350px;
-	background: white;
+	background: transparent;
+	background-color:rgba(255,255,255,0.8);
 	/*meletakkan form ke tengah*/
 	margin: 80px auto;
 	padding: 30px 20px;
 	text-align: center;
+	border: 2px solid black;
+	border-radius: 15px;
 }
 
 .kembali_tengah{
@@ -46,10 +116,6 @@ h2{
 	margin: 12px auto;
 }
  
-label{
-	font-size: 11pt;
-}
- 
 .form_login{
 	/*membuat lebar form penuh*/
 	box-sizing : border-box;
@@ -57,6 +123,9 @@ label{
 	padding: 10px;
 	font-size: 11pt;
 	margin-bottom: 20px;
+	border: 2px solid blue;
+	border-radius: 15px;
+
 }
  
 .tombol_login{
